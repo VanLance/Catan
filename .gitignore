@@ -1,0 +1,29 @@
+".vs/" 
+
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code settings
+.vscode/
+
+# Rider settings
+.idea/
+
+# Dotnet artifacts
+*.log
+*.vs/
+
+# Others
+*.DS_Store
+Thumbs.db
+
+# Test results
+TestResults/
