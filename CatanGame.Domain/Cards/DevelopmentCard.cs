@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CatanGame.Domain
+namespace CatanGame.Domain.Cards
 {
-    internal class City
+    internal class DevelopmentCard
     {
     }
 }

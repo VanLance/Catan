@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CatanGame.Domain
+namespace CatanGame.Domain.Enums
 {
-    internal class Resource
+    internal class DevelopmentCardType
     {
     }
 }

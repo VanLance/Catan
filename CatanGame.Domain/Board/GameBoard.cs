@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CatanGame.Domain
+namespace CatanGame.Domain.Board
 {
     internal class GameBoard
     {
@@ -13,7 +13,7 @@ namespace CatanGame.Domain
 
         public GameBoard()
         {
-            _layout = [ new Tile[3], new Tile[4], new Tile[5], new Tile[4], new Tile[3],];
+            _layout = [new Tile[3], new Tile[4], new Tile[5], new Tile[4], new Tile[3],];
         }
     }
 }

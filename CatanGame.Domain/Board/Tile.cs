@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CatanGame.Domain
+namespace CatanGame.Domain.Board
 {
     internal class Tile
     {

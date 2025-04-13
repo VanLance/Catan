@@ -1,6 +1,4 @@
-﻿
-
-namespace CatanGame.Domain
+﻿namespace CatanGame.Domain.Board
 {
     internal class Edge
     {
