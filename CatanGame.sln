@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatanGame.Domain", "CatanGame.Domain\CatanGame.Domain.csproj", "{61ECF45C-4583-49B2-ACC7-2E11CF8B9AF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatanGame.Engine", "CatanGame.Engine\CatanGame.Engine.csproj", "{1F4DEC4F-1EB3-4BD6-A968-92854CD34469}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatanGame.Tests", "CatanGame.Tests\CatanGame.Tests.csproj", "{0C7CF2BF-E626-4ADB-8D28-01514D53EA9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61ECF45C-4583-49B2-ACC7-2E11CF8B9AF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61ECF45C-4583-49B2-ACC7-2E11CF8B9AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61ECF45C-4583-49B2-ACC7-2E11CF8B9AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61ECF45C-4583-49B2-ACC7-2E11CF8B9AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F4DEC4F-1EB3-4BD6-A968-92854CD34469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F4DEC4F-1EB3-4BD6-A968-92854CD34469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F4DEC4F-1EB3-4BD6-A968-92854CD34469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F4DEC4F-1EB3-4BD6-A968-92854CD34469}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C7CF2BF-E626-4ADB-8D28-01514D53EA9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C7CF2BF-E626-4ADB-8D28-01514D53EA9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C7CF2BF-E626-4ADB-8D28-01514D53EA9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C7CF2BF-E626-4ADB-8D28-01514D53EA9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
