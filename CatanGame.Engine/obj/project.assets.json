@@ -5,9 +5,6 @@
       "CatanGame.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
-        "dependencies": {
-          "CatanGame.Engine": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/CatanGame.Domain.dll": {}
         },
@@ -101,16 +98,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.24575.35/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Cycle detected. \r\n  CatanGame.Engine -> CatanGame.Domain -> CatanGame.Engine.",
-      "libraryId": "CatanGame.Engine",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  }
 }

@@ -1,18 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qs/Ix8JjO9w=",
-  "success": false,
+  "dgSpecHash": "uMN6AiXSNQs=",
+  "success": true,
   "projectFilePath": "C:\\Users\\Dylan\\Projects\\Catan\\CatanGame.Engine\\CatanGame.Engine.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Cycle detected. \r\n  CatanGame.Engine -> CatanGame.Domain -> CatanGame.Engine.",
-      "libraryId": "CatanGame.Engine",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  "logs": []
 }
