@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace CatanGame.Domain.Enums
 {
-    internal class ResourceType
+    internal enum ResourceType
     {
+        Wood,
+        Brick,
+        Sheep,
+        Wheat,
+        Ore,
     }
 }

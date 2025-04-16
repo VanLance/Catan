@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CatanGame.Domain
+namespace CatanGame.Domain.Players
 {
     internal class Player
     {
@@ -14,7 +14,8 @@ namespace CatanGame.Domain
         public Settlement[] settlements;
         public City[] cities;
 
-        public Player(PlayerColor color) {
+        public Player(PlayerColor color)
+        {
             this.color = color;
             roads = new Road[15];
             settlements = new Settlement[5];

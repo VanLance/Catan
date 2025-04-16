@@ -1,8 +1,11 @@
-﻿namespace CatanGame.Domain.Board
+﻿using CatanGame.Domain.Players;
+
+namespace CatanGame.Domain.Board
 {
-    internal class Edge
+    internal struct Edge
     {
-        private Point PontOne;
-        private Point PontTwo;
+        private Point pointOne;
+        private Point pointTwo;
+        private Road road;
     }
 }

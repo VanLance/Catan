@@ -1,5 +1,4 @@
-﻿using CatanGame.Domain.Players;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace CatanGame.Domain.Enums
 {
-    internal enum BuildType
+    internal enum Edges
     {
-        Road,
-        Settlement,
-        City,
+        TopRight,
+        Right,
+        BottomRight,
+        BottomLeft,
+        Left,
+        TopLeft
     }
 }

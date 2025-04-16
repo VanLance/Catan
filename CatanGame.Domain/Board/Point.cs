@@ -1,6 +1,11 @@
-﻿namespace CatanGame.Domain.Board
+﻿using CatanGame.Domain.Players;
+
+namespace CatanGame.Domain.Board
 {
-    internal class Point
+    struct Point
     {
+        public bool house;
+        public bool settlement;
+
     }
 }

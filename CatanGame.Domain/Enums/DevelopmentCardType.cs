@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace CatanGame.Domain.Enums
 {
-    internal class DevelopmentCardType
+    internal enum DevelopmentCardType
     {
+        Knight,
+        VictoryPoint,
+        RoadBuilding,
+        YearOfPlenty,
+        Monopoly,
     }
 }
